@@ -1,0 +1,39 @@
+.icecreamButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icecream_category {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    font-family: 'Lato', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    position: relative;
+  }
+  
+  .icecream_category:hover {
+    cursor: pointer;
+  }
+
+  .icecream_category::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: black; 
+    transform: scaleX(0); 
+    transform-origin: 0%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icecream_category:hover::before {
+    transform: scaleX(1); 
+  }
+  
