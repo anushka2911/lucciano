@@ -7,7 +7,10 @@ function Navbar() {
         <div className="navbar">
         <p className="nav_logo">Lucciano</p>
         <p className="quote">Scoops of happiness, one cone at a time!</p>
+        <div className="cart">
         <img src={url} />
+        <h5 className="total_cart_items">1</h5>
+        </div>
         </div>
 
 

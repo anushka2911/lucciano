@@ -8,12 +8,14 @@
   .icecream_category {
     height: 50px;
     width: 100px;
+    margin-bottom: 30px;
     background-color: white;
     font-family: 'Lato', serif;
     font-weight: bolder;
     font-size: 20px;
     border: none;
     position: relative;
+
   }
   
   .icecream_category:hover {

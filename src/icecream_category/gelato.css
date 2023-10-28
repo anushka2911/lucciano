@@ -1,0 +1,93 @@
+.gelato_main_container {
+    margin: 0px 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 30px;
+    justify-items: center;
+    align-items: center;
+    /* background-color: red; */
+  }
+  
+  .gelato_container {
+    /* background-color: purple; */
+    margin: 0;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    position: relative; 
+  }
+  
+  .gelato_image img {
+    width: 300px;
+    height: 300px;
+    transition: transform 0.6s ease;
+  }
+  
+    .gelato_image img:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+
+  .gelato_info {
+    margin: 0px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 50%;
+    position: relative; 
+    top: -70px; 
+    left: 0;
+    background-color: thistle;
+    width: fit-content;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.6s ease, visibility 0.3s ease 3s;
+    z-index: -1;
+  }
+  
+
+  .gelato_container:hover .gelato_info {
+    cursor: pointer;
+    visibility: visible;
+    transform: scale(1);
+    transition: transform 0.6s ease, visibility 0.3s ease;
+  }
+  
+  .gelato_name {
+    margin-top: 19px;
+  }
+  
+  .gelato_description {
+    margin: 8px;
+    text-align: center;
+  }
+  
+  .gelato_price {
+    margin: 0px;
+  }
+  
+  .gelato_addToCart {
+    margin: 0;
+    margin-top: 10px;
+    border: none;
+    background-color: #202122;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .gelato_addToCart:hover {
+    cursor: pointer;
+    background-color: #01010e5e;
+  }
+  

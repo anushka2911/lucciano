@@ -1,10 +1,9 @@
 import React from "react";
 import { shadowUrl, biteUrl } from "./icecream_config.js";
-import icePopDetails from "./icecream_config.js";
+import {icePopDetails} from "./icecream_config.js";
 import "./iceCream.css";
 
 function IcePopsCont(props) {
-  console.log(props);
   return (
     <>
       <div className="icePop_container">
@@ -26,7 +25,7 @@ function IcePopsCont(props) {
           <div className="icePop_name">{props.iceCreamName}</div>
           <div className="icePop_description">{props.productDescription}</div>
           <div className="icePop_price">Rs. {props.price}</div>
-          <button className="icePop_addToCart">+ Add Item</button>
+          <button className="icePop_addToCart add_to_cart_btn">+ Add Item</button>
         </div>
       </div>
     </>

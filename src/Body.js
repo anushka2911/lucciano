@@ -3,6 +3,7 @@ import React from "react";
 import "./Body.css";
 
 import IcePops from "./icecream_category/icecream.js";
+import Gelato from "./icecream_category/gelato.js";
 
 function Body(){
     return (
@@ -13,7 +14,8 @@ function Body(){
             <button className="all_button icecream_category">ALL</button>
             </div>
 
-            <IcePops/>
+            {/* <IcePops/> */}
+            {/* <Gelato/> */}
         </>
     )
 }

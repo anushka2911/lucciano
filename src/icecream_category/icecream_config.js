@@ -1,7 +1,8 @@
 export const shadowUrl = "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/shadow.png";
 export const biteUrl = "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/mordido.png";
 
-const iceCreamData = [
+// icePops Data
+export const icePopDetails = [
   {
     iceCreamName: "Vanilla Delight",
     productDescription: "Classic vanilla ice cream",
@@ -123,4 +124,136 @@ const iceCreamData = [
   },
 ];
 
-  export default iceCreamData;
+// Gelato Data
+export const gelatoData = [
+  {
+    icecreamName: "Fresa Delight",
+    productDescription: "Dulce perfecto para el verano.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1605796102869.png",
+    price: "Rs. 150",
+    color: "#fbccc6",
+  },
+  {
+    icecreamName: "Pineapple Glacé",
+    productDescription: "Un café suave y delicioso.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1610718793008%20(1).png",
+    price: "Rs. 120",
+    color: "#ffd09d",
+  },
+  {
+    icecreamName: "Vanilla Elegante",
+    productDescription: "La  simplemente elegante.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1605796064430.png",
+    price: "Rs. 100",
+    color: "#e8ab88",
+  },
+  {
+    icecreamName: "Pistachio Fresco",
+    productDescription: "Sabor a pista fresco tropical.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1608320787259.png",
+    price: "Rs. 130",
+    color: "#e1d987",
+  },
+  {
+    icecreamName: "Oreo Ricas",
+    productDescription: "Rico, con toques de frambuesa.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1608320456151.png",
+    price: "Rs. 160",
+    color: "#fdddc7",
+  },
+  {
+    icecreamName: "Choco Tentación",
+    productDescription: "Puro chocolate,  tentador.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/dark%20chocolate.png",
+    price: "Rs. 180",
+    color: "#be8671",
+  },
+  {
+    icecreamName: "Caramelo Suave",
+    productDescription: "Dulce caramelo delicia suave.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1605795746859.png",
+    price: "Rs. 140",
+    color: "#e8ab88",
+  },
+  {
+    icecreamName: "Lemon Cremosa",
+    productDescription: "Crema de  toque de crocante.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1610718218332.png",
+    price: "Rs. 200",
+    color: "#e1d987",
+  },
+  {
+    icecreamName: "Plátano Vanilla",
+    productDescription: "Sorprendente  de plátano.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1610718319660.png",
+    price: "Rs. 170",
+    color: "#ffe486",
+  },
+  {
+    icecreamName: "Coco Tropical",
+    productDescription: "Sabor viaje tropical.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1610721193651.png",
+    price: "Rs. 160",
+    color: "#fbccc6",
+  },
+  {
+    icecreamName: "Almond Frescura",
+    productDescription: "Refrescante  de limón.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1649364848105.png",
+    price: "Rs. 130",
+    color: "#f8ecd9",
+  },
+  {
+    icecreamName: "Choco Delicia",
+    productDescription: "Delicia vellana, un placer cremoso.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1610722888238.png",
+    price: "Rs. 190",
+    color: "#fcc480",
+  },
+  {
+    icecreamName: "Menta Berry",
+    productDescription: "Frescura  en cada cucharada.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1651673902087.png",
+    price: "Rs. 150",
+    color: "#ffc9bc",
+  },
+  {
+    icecreamName: "Maracuyá Pasión",
+    productDescription: "La en un postre.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1649365068727.png",
+    price: "Rs. 170",
+    color: "#fcc480",
+  },
+  {
+    icecreamName: "Darko Perfecto",
+    productDescription: "El  forma más perfecta.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1651675957640.png",
+    price: "Rs. 160",
+    color: "#9d786c",
+  },
+  {
+    icecreamName: "Almond Especial",
+    productDescription: "Un toque  y sabor.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1651840560634.png",
+    price: "Rs. 140",
+    color: "#DEA172",
+  },
+  {
+    icecreamName: "Dulce de Leche",
+    productDescription: "El  del dulce de leche.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1605796102869.png",
+    price: "Rs. 150",
+    color: "#fbccc6",
+  },
+  
+  {
+    icecreamName: "Mango Delicioso",
+    productDescription: "Simplemente  sabor a mango.",
+    imageLink: "https://raw.githubusercontent.com/anushka2911/lucciano-images/master/uploads/file-1610718793008.png",
+    price: "Rs. 130",
+    color: "#ffd09d",
+  },
+
+];
+
+
