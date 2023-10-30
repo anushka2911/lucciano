@@ -1,3 +1,4 @@
+
 .icecreamButtons {
     display: flex;
     flex-direction: row;
@@ -6,16 +7,16 @@
   }
   
   .icecream_category {
+    padding:0px;
     height: 50px;
     width: 100px;
-    margin-bottom: 30px;
     background-color: white;
-    font-family: 'Lato', serif;
+    color:gray;
+    font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     position: relative;
-
   }
   
   .icecream_category:hover {
@@ -37,5 +38,72 @@
   
   .icecream_category:hover::before {
     transform: scaleX(1); 
+  }
+  
+ .active button{
+    color:rgb(0, 0, 0);
+  }
+
+  .subCategoryIceCreamButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 5px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 40px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 0.7s cubic-bezier(.86, .01, .15, .99);
+  }
+  
+  .sub-btn::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+  }
+  
+  
+  .sub-btn.gradient:hover {
+    color: white;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+  }
+  
+  .button-one {
+    border: solid 2px #161816;
+    background-color: #fffff7;
+    transform: translateY(0);
+  }
+  
+  .button-one::before {
+    background: linear-gradient(to right, #272727, #363636);
+    -webkit-transform: scaleY(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 100% 0%;
+    transition: 0.7s cubic-bezier(.86, .01, .15, .99);
+  }
+  
+  .button-one:hover::before {
+    transform: scaleX(1.1) scaleY(1.1);
+  }
+  
+  .button-one:hover {
+    color: white;
   }
   

@@ -75,7 +75,7 @@
 .enjoy_it {
   color: rgba(190, 190, 190, 0.26);
   font-family: "Lato", sans-serif;
-  font-size: 240px;
+  font-size: 20vw;
   position: absolute; 
   top: 0; 
   margin: 0;
@@ -88,21 +88,25 @@
   align-items: center;
   justify-content: center;
   position: relative; 
+  top:80px;
   z-index: 1; 
 }
 
 .discover {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 50px;
+  font-size: 4vw;
   font-weight: lighter;
   margin-bottom: 0;
 }
 
 .products {
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 4vw;
   font-weight: bolder;
   margin-bottom: 0;
   position: relative;
   bottom: 45px;
 }
+
+
+
